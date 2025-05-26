@@ -1,4 +1,4 @@
-# Multi-Modal Pedestrian Crossing Prediction <br>with the PIE Dataset
+# Multi-Stream LSTM for Pedestrian Intention Prediction
 
 Predict whether a pedestrian will **cross the street in the near future** by fusing multiple information streams from the **Pedestrian Intention Estimation (PIE)** dataset.
 
@@ -41,7 +41,7 @@ This repository hosts the code for a multi-stream LSTM‑based framework designe
 ```
 
 ## ⚙️ Setup & Installation
-> **Tip:** Running on **Kaggle** (free A100) is often easier than a local setup.
+> **Tip:** Running on **Kaggle** (GPU P100) is often easier than a local setup.
 
 ### 1&nbsp;· Prerequisites
 * Git
