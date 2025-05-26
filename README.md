@@ -1,4 +1,4 @@
-# Multi-Stream LSTM for Pedestrian Intention Prediction
+# Multi-Stream LSTM for Pedestrian Intention Detection
 
 Predict whether a pedestrian will **cross the street in the near future** by fusing multiple information streams from the **Pedestrian Intention Estimation (PIE)** dataset.
 
@@ -34,6 +34,10 @@ This repository hosts the code for a multi-stream LSTM‑based framework designe
 │   └── yolop-extraction.ipynb
 │
 ├── Previous Versions/     # Early experiments & ablation studies
+│
+├── Extracted YOLOP/     # Extracted YOLOP features (.pkl files)
+│
+├── Extracted Poses/     # Extracted Poses (.pkl files)
 │
 ├── Final Version/         # Notebook that trains the best model
 │
